@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-taskqueue-master.flake = false;
+  inputs.src-taskqueue-master.ref   = "refs/heads/master";
   inputs.src-taskqueue-master.owner = "jackhftang";
-  inputs.src-taskqueue-master.ref   = "master";
   inputs.src-taskqueue-master.repo  = "taskqueue.nim";
   inputs.src-taskqueue-master.type  = "github";
   
