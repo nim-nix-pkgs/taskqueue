@@ -11,6 +11,7 @@
   inputs.src-taskqueue-0_1_1.ref   = "refs/tags/0.1.1";
   inputs.src-taskqueue-0_1_1.owner = "jackhftang";
   inputs.src-taskqueue-0_1_1.repo  = "taskqueue.nim";
+  inputs.src-taskqueue-0_1_1.dir   = "";
   inputs.src-taskqueue-0_1_1.type  = "github";
   
   inputs."timestamp".owner = "nim-nix-pkgs";
